@@ -1,0 +1,53 @@
+git config --global user.name "shreyas"
+
+git config --global user.email "shrs19cs@cmrit.ac.in"
+
+git init 
+ 
+git status
+
+git add filename
+
+git commit -m  "if msg req"
+
+git remote add origin https://link_on_the_webpage
+
+git push origin master   //push items on your local to net
+
+git add -A               //add all items
+ 
+git diff			 //specidies the changes done inside the old vs new file
+
+---------------romove senarios-----------------
+
+If you want to push a deleted file to remote
+git add 'deleted file name'
+
+git commit -m'message'
+
+git push -u origin branch
+
+
+If you want to delete a file from remote and locally
+git rm 'file name'
+
+git commit -m'message'
+
+git push -u origin branch
+
+
+If you want to delete a file from remote only
+git rm --cached 'file name'
+
+git commit -m'message'
+
+git push -u origin branch
+
+NoTe : instead of branch mention the branchname (ex: main/master)
+
+-------------------------------------------------------------
+
+
+
+
+ls -a   (hidden files)
